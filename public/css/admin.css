@@ -19,7 +19,7 @@
 .btn-burger{
     float:left;
     padding:15px;
-    padding-top: 11px;
+    padding-top: 9px;
     padding-bottom: 5px;
     font-size: 1.5em;
     line-height:0;
@@ -372,4 +372,13 @@
     background-color:#21965340 !important;
     color: #219653 !important;
     margin:0 5px;
+}
+.dash-panel-c{
+    border-left: 5px solid blue;
+}
+.title-panel-c{
+    font-weight:600;
+}
+.content-panel-c{
+    font-size:2em;
 }

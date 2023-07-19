@@ -54,7 +54,7 @@ Route::post('admin/action_edit_kategori}', [Kategori::class, 'action_edit_katego
 Route::post('admin/action_del_kategori}', [Kategori::class, 'action_del_kategori'])->name('action_del_kategori');
 
 //pesanan
-Route::get('admin/pesanan', [Pesanan::class, 'index'])->name('pesanan');
+Route::get('admin/pesanan', [Pesanan::class, 'index'])->name('admin_pesanan');
 Route::post('admin/action_pesanan', [Pesanan::class, 'action_pesanan'])->name('action_pesanan');
 
 //user
@@ -80,3 +80,4 @@ Route::post('pesanan', [Api::class, 'pesanan'])->name('pesanan');
 Route::post('customer', [Api::class, 'customer'])->name('customer');
 Route::post('selesai', [Api::class, 'selesai'])->name('selesai');
 Route::post('ulasan', [Api::class, 'ulasan'])->name('ulasan');
+Route::post('grafik_penjualan', [Api::class, 'grafik_penjualan'])->name('grafik_penjualan');

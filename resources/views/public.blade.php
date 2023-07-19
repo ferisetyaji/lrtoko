@@ -441,7 +441,8 @@
                     id: "{{ Session::get('id') }}",
                     _token: $('input[name="_token"]').val()
                 },
-                success: function($data){
+                success: function(data){
+                    console.log(data);
                     if(data.msg == 'faild'){
                         $('.top-tool').html('\
                             <a href="{{ route("login") }}" class="tool-menu"\

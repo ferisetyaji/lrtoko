@@ -48,7 +48,7 @@ class User extends Controller
 		if($req->has('save')){
 
 			userModel::create([
-				'nama' => $req->input('nama'),
+				'username' => $req->input('username'),
 		        'password' => $req->input('password')
 			]);
 

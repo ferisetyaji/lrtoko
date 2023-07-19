@@ -19,6 +19,7 @@ class pesananModel extends Model{
         'id',
         'id_stok',
         'id_pemesan',
+        'nama_pemesan',
         'nama_produk',
         'telp',
         'email',

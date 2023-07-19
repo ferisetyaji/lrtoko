@@ -12,10 +12,9 @@
         <link rel="stylesheet" href="{{ asset('css/admin.css') }}">
     </head>
     <body style="background-color:#f4f4f4">
-        <div class="top-bar">
-            <img src="{{ asset('img/mobile-pay1.png') }}" class="img-bar">
-            <a href="#" class="brands">LRTOKO</a>
+        <div class="top-bar">            
             <div class="btn-burger burger dib pointer"><i class="fas fa-bars"></i></div>
+            <a href="#" class="brands">LRTOKO</a>
             <div class="navbar-img navbar-right">
                 <div class="user-bar drop-bar">
                     <img src="{{ asset('img/default.png') }}" class="user-bar-img">
@@ -53,7 +52,7 @@
                     </a>
                 </li>
                 <li id="pesanan">
-                    <a href="{{ route('pesanan') }}" class="admin-menu-first" data-id="#pesanan">
+                    <a href="{{ route('admin_pesanan') }}" class="admin-menu-first" data-id="#pesanan">
                         <i class="fa fa-list fa-fw" aria-hidden="true"></i>
                         <span>Pesanan</span>
                     </a>
